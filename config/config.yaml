@@ -1,0 +1,5 @@
+secret-key: "64834gbfhn1390456b346v]5][24[]2;1l5v1958109c124c;c;,]"
+
+port: "8233"
+
+mongo-conn: "mongodb://mongo:27017/app"

@@ -1,0 +1,14 @@
+version: '3.9'
+
+services:
+  app:
+    restart: always
+    build: ./
+    env_file:
+      - ./.env
+    volumes:
+      - ./config/:/root/config/
+    ports:
+      - '8233:8233'
+  mongo:
+    image: mongo
